@@ -15,6 +15,12 @@
     <color name="menuCheckedTrue">#212121</color>
     <color name="menuCheckedFalse">#BDBDBD</color>
 
-
+    <!-- gradient background header beranda -->
+    <!--<color name="startColor">#84fab0</color>-->
+    <!--<color name="endColor">#8fd3f4</color>-->
+    <!--<color name="startColor">#209cff</color>-->
+    <!--<color name="endColor">#68e0cf</color>-->
+    <color name="startColor">#4b79a1</color>
+    <color name="endColor">#283e51</color>
 
 </resources>

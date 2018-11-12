@@ -16,13 +16,30 @@
     <string name="masukan_ulang_password">Masukan ulang password</string>
     <string name="sudah_punya_akun">Saya sudah punya akun</string>
 
-    <!-- menu -->
+
+
+    <!-- Beranda page -->
+    <!-- menu navbar -->
     <string name="beranda">Beranda</string>
     <string name="pesanan">Pesanan</string>
     <string name="lainnya">Lainnya</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="alushelp">Alushelp</string>
 
+    <string name="rp">Rp.</string>
+    <string name="sepuluh">10</string>
+    <string name="k">k</string>
+    <string name="contoh_hari_tanggal">Senin, 12 November 2018</string>
+    <string name="promo_eksklusif">Rebut promo untuk /n 10k pemesan pertama</string>
+    <string name="btn_rebut">Rebut</string>
 
+    <string name="beranda_header_1">Ada yang bisa kami bantu hari ini?</string>
+    <string name="setrika">Setrika</string>
+    <string name="cuci">Cuci baju</string>
+    <string name="kustom">Kustom</string>
+
+    <string name="beranda_header_2">Yuk, manfaatkan promo menarik kami!</string>
+    <string name="rabu_ceria">#RabuCeria</string>
+    <string name="caption_beranda_1">Bersihin rumah lebih /n murah di hari rabu</string>
+    <string name="btn_pesan">Pesan</string>
 </resources>

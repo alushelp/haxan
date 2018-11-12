@@ -10,10 +10,10 @@
         android:id="@+id/action_pesanan"
         android:icon="@drawable/ic_assignment_black_24dp"
         android:title="@string/pesanan"
-        app:showAsAction="ifRoom"/>
+        app:showAsAction="always"/>
     <item
         android:id="@+id/action_lainnya"
         android:icon="@drawable/ic_more_vert_black_24dp"
         android:title="@string/lainnya"
-        app:showAsAction="ifRoom"/>
+        app:showAsAction="always"/>
 </menu>
