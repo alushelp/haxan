@@ -1,3 +1,21 @@
 <resources>
     <string name="app_name">Haxan</string>
+
+    <!-- Login & Daftar page -->
+    <string name="login">Login</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="lupa_password">Lupa password</string>
+    <string name="atau">Atau</string>
+    <string name="login_google">Login melalui Google</string>
+    <string name="belum_punya_akun">Saya belum punya akun</string>
+
+    <string name="daftar">Daftar</string>
+    <string name="nama">Nama</string>
+    <string name="nohp">No. hp</string>
+    <string name="masukan_ulang_password">Masukan ulang password</string>
+    <string name="sudah_punya_akun">Saya sudah punya akun</string>
+
+    <!-- beranda page -->
+
 </resources>
