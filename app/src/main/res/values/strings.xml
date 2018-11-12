@@ -16,6 +16,13 @@
     <string name="masukan_ulang_password">Masukan ulang password</string>
     <string name="sudah_punya_akun">Saya sudah punya akun</string>
 
-    <!-- beranda page -->
+    <!-- menu -->
+    <string name="beranda">Beranda</string>
+    <string name="pesanan">Pesanan</string>
+    <string name="lainnya">Lainnya</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
 
 </resources>

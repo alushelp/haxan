@@ -1,14 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#424242</color>
-    <color name="colorPrimaryDark">#9B9A9A</color>
+    <color name="colorPrimary">#9E9E9E</color>
+    <color name="colorPrimaryDark">#212121</color>
     <color name="colorAccent">#448AFF</color>
 
-    <!-- typography -->
-    <color name="text_black">#424242</color>
-    <color name="text_gray">#9B9A9A</color>
-    <color name="text_blue">#448AFF</color>
+    <color name="colorBackground">#F5F5F5</color>
 
+    <!-- typography -->
+    <color name="textBlack">#424242</color>
+    <color name="textGray">#9B9A9A</color>
+    <color name="textBlue">#448AFF</color>
+
+    <!-- menu bottom nav. -->
+    <color name="menuCheckedTrue">#212121</color>
+    <color name="menuCheckedFalse">#BDBDBD</color>
 
 
 
