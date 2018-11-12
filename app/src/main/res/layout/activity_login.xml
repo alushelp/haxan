@@ -11,7 +11,7 @@
        android:layout_width="wrap_content"
        android:layout_height="wrap_content"
        android:text="@string/login"
-       android:textColor="@color/text_black"
+       android:textColor="@color/textBlack"
        android:layout_marginTop="70dp"
        android:layout_marginBottom="20dp"
        android:layout_marginLeft="@dimen/margin_side"
@@ -39,7 +39,6 @@
        android:layout_marginBottom="10dp"
        app:passwordToggleEnabled="true">
       <EditText
-          android:id="@+id/et_password_login"
           android:layout_width="match_parent"
           android:layout_height="wrap_content"
           android:layout_marginLeft="@dimen/margin_side"
