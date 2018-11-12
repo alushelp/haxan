@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#9B9A9A</color>
-    <color name="colorPrimaryDark">#424242</color>
+    <color name="colorPrimary">#424242</color>
+    <color name="colorPrimaryDark">#9B9A9A</color>
     <color name="colorAccent">#448AFF</color>
 
     <!-- typography -->
     <color name="text_black">#424242</color>
     <color name="text_gray">#9B9A9A</color>
+    <color name="text_blue">#448AFF</color>
+
+
 
 
 </resources>

@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">Haxan</string>
 
-   <!-- Login & Daftar page -->
+    <!-- Login & Daftar page -->
     <string name="login">Login</string>
     <string name="email">Email</string>
     <string name="password">Password</string>
@@ -16,6 +16,6 @@
     <string name="masukan_ulang_password">Masukan ulang password</string>
     <string name="sudah_punya_akun">Saya sudah punya akun</string>
 
-    <!-- ..[yang lain].. page -->
+    <!-- beranda page -->
 
 </resources>
