@@ -6,9 +6,16 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.TextView;
+
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.Locale;
 
 public class HomeFragment extends Fragment {
 
+    View myView;
+    TextView tvDateMain;
 
     public HomeFragment() {
         // Required empty public constructor
@@ -18,8 +25,14 @@ public class HomeFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_home, container, false);
+        myView = inflater.inflate(R.layout.fragment_home, container, false);
+
+        tvDateMain = (TextView) myView.findViewById(R.id.tv_haridantanggal_main);
+
+        String dateFormat = new SimpleDateFormat("EEE, d MMM yyyy", Locale.getDefault()).format(new Date());
+        tvDateMain.setText(dateFormat);
+
+        return myView;
     }
 
 }

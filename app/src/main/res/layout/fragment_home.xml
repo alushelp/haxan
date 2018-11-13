@@ -4,12 +4,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".HomeFragment"
-    android:scrollbars="vertical">
+    android:scrollbars="vertical"
+    tools:context=".HomeFragment">
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="215dp"
+        android:layout_height="185dp"
         android:orientation="vertical"
         android:background="@drawable/corner_radius_header_home">
 
@@ -24,6 +24,7 @@
             android:textColor="@android:color/white"
             android:textSize="@dimen/heading_3" />
         <TextView
+            android:id="@+id/tv_haridantanggal_main"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:fontFamily="@font/noto_san"
@@ -36,7 +37,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="25dp"
         android:layout_marginLeft="@dimen/margin_side"
         android:layout_marginRight="@dimen/margin_side"
         android:layout_marginBottom="10dp"
@@ -48,80 +49,111 @@
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="100dp"
         android:layout_marginLeft="@dimen/margin_side"
         android:layout_marginRight="@dimen/margin_side">
 
         <android.support.v7.widget.CardView
             xmlns:card_view="http://schemas.android.com/apk/res-auto"
-            android:id="@+id/card_view1"
-            android:layout_gravity="center"
+            android:id="@+id/cv_fitur_setrika"
             android:layout_width="90dp"
             android:layout_height="90dp"
-            android:layout_marginLeft="@dimen/margin_side"
-            card_view:cardCornerRadius="5dp"
-            android:layout_alignParentLeft="true"
+            android:layout_marginStart="@dimen/margin_side"
+            android:foreground="?attr/selectableItemBackground"
+            card_view:cardCornerRadius="8dp"
+            android:layout_centerVertical="true"
             android:clickable="true"
-            >
+            android:focusable="true">
             <RelativeLayout
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:elevation="16dp"
-                android:background="@drawable/shadow_cardview_fitur">
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:src="@drawable/ic_iron"
+                    android:layout_centerInParent="true"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:scaleType="fitXY"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:text="@string/setrika"
-                    android:gravity="center|bottom"
+                    android:gravity="center_horizontal|bottom"
+                    android:paddingTop="5dp"
                     android:paddingBottom="5dp"/>
             </RelativeLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/cv_fitur_cleaning"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:foreground="?attr/selectableItemBackground"
+            card_view:cardCornerRadius="8dp"
+            android:layout_centerInParent="true"
+            android:clickable="true"
+            android:focusable="true">
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:src="@drawable/ic_house"
+                    android:layout_centerInParent="true"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:scaleType="fitXY"/>
 
-
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_horizontal|bottom"
+                    android:text="@string/cleaning"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp" />
+            </RelativeLayout>
         </android.support.v7.widget.CardView>
 
         <android.support.v7.widget.CardView
             xmlns:card_view="http://schemas.android.com/apk/res-auto"
-            android:id="@+id/card_view2"
-            android:layout_gravity="center"
+            android:id="@+id/cv_fitur_kustom"
             android:layout_width="90dp"
             android:layout_height="90dp"
-            android:layout_centerHorizontal="true"
-            card_view:cardCornerRadius="5dp"
-            android:clickable="true">
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:text="@string/cuci"
-                android:gravity="center|bottom"
-                android:paddingBottom="5dp"/>
-
-        </android.support.v7.widget.CardView>
-        <android.support.v7.widget.CardView
-            xmlns:card_view="http://schemas.android.com/apk/res-auto"
-            android:id="@+id/card_view3"
-            android:layout_gravity="center"
-            android:layout_width="90dp"
-            android:layout_height="90dp"
-            android:layout_marginRight="@dimen/margin_side"
-            card_view:cardCornerRadius="5dp"
-            android:layout_alignParentRight="true"
-            android:clickable="true">
-
+            android:layout_marginEnd="@dimen/margin_side"
+            android:foreground="?attr/selectableItemBackground"
+            card_view:cardCornerRadius="8dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:clickable="true"
+            android:focusable="true">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:src="@drawable/ic_kustom"
+                android:layout_centerInParent="true"
+                android:clickable="true"
+                android:focusable="true"
+                android:scaleType="fitXY"/>
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:text="@string/kustom"
-                android:gravity="center|bottom"
+                android:gravity="center_horizontal|bottom"
                 android:paddingBottom="5dp"/>
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
 
-        </android.support.v7.widget.CardView>
     </RelativeLayout>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="20dp"
         android:layout_marginLeft="@dimen/margin_side"
         android:layout_marginRight="@dimen/margin_side"
         android:layout_marginBottom="10dp"
@@ -137,8 +169,12 @@
         android:layout_width="250dp"
         android:layout_height="100dp"
         android:layout_marginLeft="@dimen/margin_side"
-        card_view:cardCornerRadius="5dp"
-        android:clickable="true">
+        android:layout_marginRight="@dimen/margin_side"
+        card_view:cardCornerRadius="10dp"
+        android:foreground="?attr/selectableItemBackground"
+        android:clickable="true"
+        android:focusable="true"
+        card_view:cardElevation="8dp">
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
